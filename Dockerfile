@@ -2,7 +2,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:latest AS build-env
 WORKDIR /app
 
-# Copy csproj and restore
+# Copy csproj and restore comment
 COPY *.csproj ./
 RUN dotnet restore
 
